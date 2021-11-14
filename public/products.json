@@ -1,0 +1,129 @@
+[
+    {
+        "id": 1,
+        "name": "SONY-043267HD",
+        "price": "30000",
+        "description": "A camera is an optical instrument that captures a visual image. At a basic level, cameras are sealed boxes with a small hole that allows light through to capture an image on a light-sensitive surface. Cameras have various mechanisms to control how the light falls onto the light-sensitive surface.",
+        "img": "https://i.ibb.co/tp3N5n2/product1-img.jpg"
+    },
+    {
+        "id": 2,
+        "name": "SONY-033257HD",
+        "price": "30000",
+        "description": "A camera is an optical instrument that captures a visual image. At a basic level, cameras are sealed boxes with a small hole that allows light through to capture an image on a light-sensitive surface. Cameras have various mechanisms to control how the light falls onto the light-sensitive surface.",
+        "img": "https://i.ibb.co/YyC1xPc/ig6.jpg"
+    },
+    {
+        "id": 3,
+        "name": "SONY-055277HD",
+        "price": "30000",
+        "description": "A camera is an optical instrument that captures a visual image. At a basic level, cameras are sealed boxes with a small hole that allows light through to capture an image on a light-sensitive surface. Cameras have various mechanisms to control how the light falls onto the light-sensitive surface.",
+        "img": "https://i.ibb.co/kJBXTxK/img2.jpg"
+    },
+    {
+        "id": 4,
+        "name": "SONY-066266HD",
+        "price": "30000",
+        "description": "A camera is an optical instrument that captures a visual image. At a basic level, cameras are sealed boxes with a small hole that allows light through to capture an image on a light-sensitive surface. Cameras have various mechanisms to control how the light falls onto the light-sensitive surface.",
+        "img": "https://i.ibb.co/M73bgKz/img3.jpg"
+    },
+    {
+        "id": 5,
+        "name": "SONY-043270HD",
+        "price": "30000",
+        "description": "A camera is an optical instrument that captures a visual image. At a basic level, cameras are sealed boxes with a small hole that allows light through to capture an image on a light-sensitive surface. Cameras have various mechanisms to control how the light falls onto the light-sensitive surface.",
+        "img": "https://i.ibb.co/prJnRP3/img4.jpg"
+    },
+    {
+        "id": 6,
+        "name": "SONY-055250HD",
+        "price": "30000",
+        "description": "A camera is an optical instrument that captures a visual image. At a basic level, cameras are sealed boxes with a small hole that allows light through to capture an image on a light-sensitive surface. Cameras have various mechanisms to control how the light falls onto the light-sensitive surface.",
+        "img": "https://i.ibb.co/dkzVjcv/img5.jpg"
+    },
+    {
+        "id": 7,
+        "name": "SONY-088267HD",
+        "price": "30000",
+        "description": "A camera is an optical instrument that captures a visual image. At a basic level, cameras are sealed boxes with a small hole that allows light through to capture an image on a light-sensitive surface. Cameras have various mechanisms to control how the light falls onto the light-sensitive surface.",
+        "img": "https://i.ibb.co/gM6Hvty/img7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "SONY-045567HD",
+        "price": "30000",
+        "description": "A camera is an optical instrument that captures a visual image. At a basic level, cameras are sealed boxes with a small hole that allows light through to capture an image on a light-sensitive surface. Cameras have various mechanisms to control how the light falls onto the light-sensitive surface.",
+        "img": "https://i.ibb.co/jrJpSb6/img8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "SONY-043367HD",
+        "price": "30000",
+        "description": "A camera is an optical instrument that captures a visual image. At a basic level, cameras are sealed boxes with a small hole that allows light through to capture an image on a light-sensitive surface. Cameras have various mechanisms to control how the light falls onto the light-sensitive surface.",
+        "img": "https://i.ibb.co/7KWL2RH/img9.jpg"
+    },
+    {
+        "id": 10,
+        "name": "SONY-044467HD",
+        "price": "30000",
+        "description": "A camera is an optical instrument that captures a visual image. At a basic level, cameras are sealed boxes with a small hole that allows light through to capture an image on a light-sensitive surface. Cameras have various mechanisms to control how the light falls onto the light-sensitive surface.",
+        "img": "https://i.ibb.co/8dYYGpN/img10.jpg"
+    },
+    {
+        "id": 11,
+        "name": "SONY-046667HD",
+        "price": "30000",
+        "description": "A camera is an optical instrument that captures a visual image. At a basic level, cameras are sealed boxes with a small hole that allows light through to capture an image on a light-sensitive surface. Cameras have various mechanisms to control how the light falls onto the light-sensitive surface.",
+        "img": "https://i.ibb.co/QndG9z9/img11.jpg"
+    },
+    {
+        "id": 12,
+        "name": "SONY-047767HD",
+        "price": "30000",
+        "description": "A camera is an optical instrument that captures a visual image. At a basic level, cameras are sealed boxes with a small hole that allows light through to capture an image on a light-sensitive surface. Cameras have various mechanisms to control how the light falls onto the light-sensitive surface.",
+        "img": "https://i.ibb.co/TKNb5kr/img12.jpg"
+    },
+    {
+        "id": 13,
+        "name": "SONY-040067HD",
+        "price": "30000",
+        "description": "A camera is an optical instrument that captures a visual image. At a basic level, cameras are sealed boxes with a small hole that allows light through to capture an image on a light-sensitive surface. Cameras have various mechanisms to control how the light falls onto the light-sensitive surface.",
+        "img": "https://i.ibb.co/wwgKkdF/img13.jpg"
+    },
+    {
+        "id": 14,
+        "name": "SONY-041167HD",
+        "price": "30000",
+        "description": "A camera is an optical instrument that captures a visual image. At a basic level, cameras are sealed boxes with a small hole that allows light through to capture an image on a light-sensitive surface. Cameras have various mechanisms to control how the light falls onto the light-sensitive surface.",
+        "img": "https://i.ibb.co/82Prs72/img14.jpg"
+    },
+    {
+        "id": 15,
+        "name": "SONY-041267HD",
+        "price": "30000",
+        "description": "A camera is an optical instrument that captures a visual image. At a basic level, cameras are sealed boxes with a small hole that allows light through to capture an image on a light-sensitive surface. Cameras have various mechanisms to control how the light falls onto the light-sensitive surface.",
+        "img": "https://i.ibb.co/7j1mY5x/img18.jpg"
+    },
+    {
+        "id": 16,
+        "name": "SONY-043327HD",
+        "price": "30000",
+        "description": "A camera is an optical instrument that captures a visual image. At a basic level, cameras are sealed boxes with a small hole that allows light through to capture an image on a light-sensitive surface. Cameras have various mechanisms to control how the light falls onto the light-sensitive surface.",
+        "img": "https://i.ibb.co/vjxRPdF/img17.jpg"
+    },
+    {
+        "id": 17,
+        "name": "SONY-043807HD",
+        "price": "30000",
+        "description": "A camera is an optical instrument that captures a visual image. At a basic level, cameras are sealed boxes with a small hole that allows light through to capture an image on a light-sensitive surface. Cameras have various mechanisms to control how the light falls onto the light-sensitive surface.",
+        "img": "https://i.ibb.co/Yh0cZnG/img16.jpg"
+    },
+    {
+        "id": 18,
+        "name": "SONY-043687HD",
+        "price": "30000",
+        "description": "A camera is an optical instrument that captures a visual image. At a basic level, cameras are sealed boxes with a small hole that allows light through to capture an image on a light-sensitive surface. Cameras have various mechanisms to control how the light falls onto the light-sensitive surface.",
+        "img": "https://i.ibb.co/QdCpwPN/img15.jpg"
+    }
+    
+]
