@@ -48,6 +48,7 @@ function Dashboard(props) {
                 <Link to={`${url}/makeAdmin`}><Button color="inherit">Make Admin</Button></Link>
                 <Link to={`${url}/addProduct`}><Button color="inherit">Add Product</Button></Link>
             </Box>}
+            <Link to="/payment"><Button color="inherit">Payment</Button></Link>
             {/* <List>
                 {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
                     <ListItem button key={text}>

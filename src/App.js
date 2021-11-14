@@ -10,6 +10,7 @@ import AuthProvider from './context/AuthProvider/AuthProvider';
 import PrivateRoute from './pages/Login/PrivateRoute/PrivateRoute';
 import AddProduct from './pages/AddProduct/AddProduct';
 import Dashboard from './pages/Dashboard/Dashboard/Dashboard';
+import Payment from './pages/Dashboard/Payment/Payment';
 
 
 function App() {
@@ -30,9 +31,11 @@ function App() {
             <Route path="/allproducts">
               <AllProducts />
             </Route>
-
             <Route path="/dashboard">
               <Dashboard />
+            </Route>
+            <Route path="/payment">
+              <Payment />
             </Route>
 
             <Route path="/login">
