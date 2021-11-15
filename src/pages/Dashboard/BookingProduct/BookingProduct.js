@@ -15,7 +15,7 @@ const BookingProduct = () => {
 
 
     useEffect(() => {
-        const url = `http://localhost:5000/bookingProducts?email=${user.email}`
+        const url = `https://powerful-sands-18483.herokuapp.com/bookingProducts?email=${user.email}`
         fetch(url)
             .then(res => res.json())
             .then(data => setProducts(data))
@@ -24,7 +24,7 @@ const BookingProduct = () => {
     const handleRemove = id => {
         const proceed = window.confirm('Are you sure, you want to Remove this?');
         if (proceed) {
-            const url = `http://localhost:5000/bookingProducts/${id}`;
+            const url = `https://powerful-sands-18483.herokuapp.com/bookingProducts/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

@@ -17,7 +17,7 @@ const Booking = () => {
     const [products, setProducts] = useState({});
 
     useEffect(() => {
-        fetch(`http://localhost:5000/products/${bookingId}`)
+        fetch(`https://powerful-sands-18483.herokuapp.com/products/${bookingId}`)
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [bookingId])

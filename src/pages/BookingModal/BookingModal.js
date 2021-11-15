@@ -43,7 +43,7 @@ const BookingModal = ({ products, openModal, handleModalClose, setBookingSuccess
         }
         // Send data to Database
         // console.log(confirmProduct);
-        fetch('http://localhost:5000/bookingProducts', {
+        fetch('https://powerful-sands-18483.herokuapp.com/bookingProducts', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
