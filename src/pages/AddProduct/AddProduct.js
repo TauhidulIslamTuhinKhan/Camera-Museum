@@ -1,7 +1,6 @@
 import axios from 'axios';
 import React from 'react';
 import { useForm } from "react-hook-form";
-import Navigation from '../Shared/Navigation/Navigation';
 import './AddProduct.css'
 
 const AddProduct = () => {

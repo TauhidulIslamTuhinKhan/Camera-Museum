@@ -20,7 +20,7 @@ const Booking = () => {
         fetch(`http://localhost:5000/products/${bookingId}`)
             .then(res => res.json())
             .then(data => setProducts(data))
-    }, [])
+    }, [bookingId])
     return (
         <div>
             <Navigation></Navigation>

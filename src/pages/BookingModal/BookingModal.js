@@ -42,7 +42,7 @@ const BookingModal = ({ products, openModal, handleModalClose, setBookingSuccess
 
         }
         // Send data to Database
-        console.log(confirmProduct);
+        // console.log(confirmProduct);
         fetch('http://localhost:5000/bookingProducts', {
             method: 'POST',
             headers: {

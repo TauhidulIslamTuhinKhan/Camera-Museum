@@ -10,7 +10,7 @@ const Navigation = () => {
         <div>
             <Navbar bg="light" variant="light">
                 <Container>
-                    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                    <Navbar.Brand href="#home">Camera Museum</Navbar.Brand>
                     <Nav className="ms-auto">
                         <NavLink className="header-text" to="/home" activeStyle={{ fontWeight: "bold", color: "red" }}> Home </NavLink>
                         {/* <NavLink className="header-text" to="/addproduct" activeStyle={{ fontWeight: "bold", color: "red" }}> Add Product </NavLink> */}

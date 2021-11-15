@@ -24,6 +24,8 @@ import MakeAdmin from '../MakeAdmin/MakeAdmin';
 import AddProduct from '../../AddProduct/AddProduct';
 import useAuth from '../../../Hooks/useAuth';
 import AdminRoute from '../../Login/AdminRoute/AdminRoute';
+import Payment from '../Payment/Payment';
+import Review from '../Review/Review';
 
 const drawerWidth = 200;
 
@@ -31,7 +33,7 @@ function Dashboard(props) {
     const { window } = props;
     const [mobileOpen, setMobileOpen] = React.useState(false);
     let { path, url } = useRouteMatch();
-    const { admin } = useAuth();
+    const { admin, logout } = useAuth();
 
 
     const handleDrawerToggle = () => {
@@ -43,23 +45,19 @@ function Dashboard(props) {
             <Toolbar />
             <Divider />
             <Link to="/allproducts"><Button color="inherit">Booking Product</Button></Link>
-            <Link to={`${url}`}><Button color="inherit">Dashboard</Button></Link>
+            <br />
+            <Link to={`${url}`}><Button color="inherit">My Orders</Button></Link>
+            <br />
             {admin && <Box>
                 <Link to={`${url}/makeAdmin`}><Button color="inherit">Make Admin</Button></Link>
                 <Link to={`${url}/addProduct`}><Button color="inherit">Add Product</Button></Link>
             </Box>}
-            <Link to="/payment"><Button color="inherit">Payment</Button></Link>
-            {/* <List>
-                {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-                    <ListItem button key={text}>
-                        <ListItemIcon>
-                            {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                        </ListItemIcon>
-                        <ListItemText primary={text} />
-                    </ListItem>
-                ))}
-            </List> */}
-
+            <br />
+            <Link to={`${url}/payment`}><Button color="inherit">Payment</Button></Link>
+            <br />
+            <Link to={`${url}/review`}><Button color="inherit">Review</Button></Link>
+            <br />
+            <Link onClick={logout} to="/login"><Button color="inherit">Logout</Button></Link>
         </div>
     );
 
@@ -137,6 +135,12 @@ function Dashboard(props) {
                     <AdminRoute path={`${path}/addProduct`}>
                         <AddProduct></AddProduct>
                     </AdminRoute>
+                    <Route path={`${path}/payment`}>
+                        <Payment />
+                    </Route>
+                    <Route path={`${path}/review`}>
+                        <Review />
+                    </Route>
                 </Switch>
 
             </Box>
